@@ -683,6 +683,11 @@ input:checked + .process-box .minus{
     flex-shrink: 0;
   }
 
+  .footer-middle{
+    display: block;
+    justify-content: center;
+  }
+
   .menu-link {
     min-height: 52px;
     padding: 15px 12px;
@@ -826,4 +831,78 @@ input:checked + .process-box .minus{
   .art {
     width: 45%;
   }
+
+
+
+
+.footer{
+    padding:35px 20px;
+    text-align:center;
 }
+
+.footer-top{
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-logo{
+    justify-content:center;
+}
+
+.footer-menu{
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+.footer-social{
+    justify-content:center;
+    margin-top:20px;
+}
+
+.footer-middle{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+.footer-contact{
+    text-align:center;
+}
+
+.footer-subscribe{
+    width:100%;
+    flex-direction:column;
+    align-items:center;
+    padding:25px;
+}
+
+.footer-subscribe input{
+    width:100%;
+    max-width:320px;
+}
+
+.footer-subscribe button{
+    width:100%;
+    max-width:320px;
+}
+
+.footer-line{
+    margin-top:30px;
+}
+
+.footer-bottom{
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    gap:15px;
+}
+
+}
+
+
+
+
+
