@@ -16,6 +16,7 @@ a {
   color: #191A23;
 }
 
+
 ul {
   list-style-type: none;
 }
@@ -53,7 +54,8 @@ html{
 }
 
 .btn-dark:hover {
-  background: #3a3c4d;
+  background: #303033;
+  
 }
 
 /* ---------- header ---------- */
@@ -86,11 +88,11 @@ html{
   font-weight: 500;
 }
 
-.star {
-  width: 32px;
+/* .star {
+  width: 320px;
   height: 32px;
   flex-shrink: 0;
-}
+} */
 
 .menubox {
   display: flex;
@@ -183,10 +185,7 @@ html{
   margin-top: 70px;
 }
 
-.logos span {
-  font-size: 28px;
-  color: #191A23;
-}
+
 
 
 /* ---------- services ---------- */
@@ -199,7 +198,7 @@ html{
 }
 
 .section-para {
-  width: 40%;
+  width: 50%;
   font-size: 18px;
   line-height: 1.4;
 }
@@ -246,7 +245,7 @@ html{
 }
 
 .card h3 span {
-  display: table;
+  display: inline-block;
   font-size: 30px;
   font-weight: 500;
   padding: 0 7px;
@@ -388,6 +387,7 @@ input:checked + .process-box .minus{
 /* form.............................. */
 
 .contact-box{
+  
     background:#f3f3f3;
     border-radius:30px;
     padding:50px;
@@ -395,7 +395,7 @@ input:checked + .process-box .minus{
     display:flex;
     justify-content: center;
     align-items:center;
-    /* overflow: hidden; */
+    
 }
 
 .contact-left{
@@ -487,10 +487,12 @@ input:checked + .process-box .minus{
     list-style:none;
     gap:30px;
     flex-wrap:wrap;
+    text-decoration:underline;
 }
 
 .footer-menu a{
     color:white;
+    
 }
 
 .footer-social{
@@ -603,9 +605,7 @@ input:checked + .process-box .minus{
 .card {
     padding: 35px;
   }
-.contact-right{
-    display: none;
-}
+
 .contact-left{
     width: 80%;
 }
@@ -621,7 +621,7 @@ input:checked + .process-box .minus{
   .header {
     height: 75px;
   }
-
+     
   .logo {
     font-size: 24px;
   }
@@ -631,9 +631,7 @@ input:checked + .process-box .minus{
     height: 24px;
   }
 
-  .contact-right{
-    display: none;
-}
+  
 .contact-left{
     width: 100%;
 }
@@ -762,6 +760,7 @@ input:checked + .process-box .minus{
 
   /* logos: 3 per row */
   .logos {
+    
     margin-top: 40px;
     gap: 15px 20px;
   }
@@ -777,10 +776,7 @@ input:checked + .process-box .minus{
     font-size: 20px;
   }
 
-  .l-notion {
-    justify-content: center;
-  }
-
+  
   /* services */
   .section {
     margin-top: 60px;
@@ -833,12 +829,6 @@ input:checked + .process-box .minus{
   }
 
 
-
-
-.footer{
-    padding:35px 20px;
-    text-align:center;
-}
 
 .footer-top{
     flex-direction:column;
@@ -898,6 +888,16 @@ input:checked + .process-box .minus{
     align-items:center;
     text-align:center;
     gap:15px;
+}
+
+.footer{
+    max-width:1200px;
+    margin:100px auto 0;
+    background:#0f1222;
+    padding:50px;
+border-radius:0px;
+     padding:35px 20px;
+    text-align:center;
 }
 
 }
